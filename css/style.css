@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* Сброс стилей reset.css /
+
+/* Указываем box sizing */
+.testing {
+  width: 42.85714%; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0; }
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block; }
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em; }
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+
+/* css */
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+.bg-img {
+  width: 100%; }
+
+.bg_1 {
+  height: 200px;
+  padding-top: 60px;
+  background: #25a5cc; }
+
+.bg_1__button {
+  width: 160px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #25a5cc;
+  border: 1px solid #ffffff; }
+
+.bg_1__text {
+  color: #ffffff; }
+
+.bg_2__row {
+  margin-top: 40px; }
+
+.bg_2__img {
+  padding-left: 150px; }
+
+.bg_2__h3 {
+  margin-top: 50px; }
+
+.bg_2__text-block {
+  width: 320px;
+  float: right; }
+
+.bg_2__block1, .bg_2__block2 {
+  min-height: 120px; }
+
+.col-sm-6::after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.bg_3 {
+  background-color: #25a5cc; }
+  .bg_3 .bg_3__row {
+    margin: 70px 0; }
+    .bg_3 .bg_3__row .bg_3__wrapper {
+      width: 80%;
+      border: 2px solid #ffffff;
+      margin: 20px auto;
+      padding: 40px 20px;
+      position: relative; }
+      .bg_3 .bg_3__row .bg_3__wrapper .bg_3__icon {
+        position: absolute;
+        width: 100px;
+        background-color: #25a5cc;
+        left: 40px;
+        top: -10px; }
+        .bg_3 .bg_3__row .bg_3__wrapper .bg_3__icon .bg_3__img {
+          margin: 0 auto; }
+      .bg_3 .bg_3__row .bg_3__wrapper .bg_3__h3, .bg_3 .bg_3__row .bg_3__wrapper .bg_3__p {
+        color: #ffffff; }
+
+.bg_4 {
+  margin-top: 50px; }
+  .bg_4 .bg_4__img {
+    display: inline-block; }
+  .bg_4 .bg_4__p {
+    margin-top: 40px; }
+
+.bg_4__img {
+  display: inline-block; }
+
+.bg_4__col-4 {
+  width: 80%;
+  float: right; }
+
+.bg_5 {
+  background-color: #25a5cc; }
+  .bg_5 .bg_5__row {
+    margin-top: 50px;
+    padding-bottom: 50px; }
+  .bg_5 .bg_5__img-1, .bg_5 .bg_5__img-2 {
+    margin: 0 auto; }
+  .bg_5 .bg_5__h4 {
+    color: #ffffff;
+    padding-top: 50px; }
+  .bg_5 .bg_5__h5 {
+    color: #ffffff; }
+  .bg_5 .bg_5__text {
+    color: #ffffff; }
+
+.bg_6 {
+  padding-bottom: 50px; }
+  .bg_6 .bg_6__h4 {
+    margin-top: 50px;
+    padding-bottom: 50px; }
+  .bg_6 .bg_6__row-1 {
+    padding-bottom: 30px; }
+
+.footer {
+  background-color: #1f2e36; }
+  .footer .footer__row {
+    padding: 50px 0; }
+  .footer .footer__h4 {
+    color: #ffffff;
+    margin-bottom: 20px; }
+  .footer .footer__block1, .footer .footer__block2, .footer .footer__block3, .footer .footer__block4, .footer .footer__block-1, .footer .footer__block2, .footer .footer__block-3 {
+    margin: 10px 0; }
+  .footer .footer__p-1, .footer .footer__p-2, .footer .footer__p-3, .footer .footer__p-4, .footer .footer__p1, .footer .footer__p2, .footer .footer__p3 {
+    color: #ffffff;
+    display: inline-block; }
