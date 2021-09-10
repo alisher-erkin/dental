@@ -89,6 +89,7 @@ html {
   .bg_1__button {
     width: 160px;
     height: auto;
+    margin-top: 20px;
     border-radius: 20px;
     background-color: #25a5cc;
     border: 1px solid #ffffff;
@@ -99,9 +100,20 @@ html {
   }
   .bg_2__row {
     margin-top: 40px;
+    .bg_2__block1 {
+      .bg_2__img-block {
+        margin-top: 10px;
+      }
+    }
+    .bg_2__block2 {
+      .bg_2__img-block {
+        margin-top: 10px;
+      }
+    }
   }
   .bg_2__img {
     padding-left: 150px;
+    margin-top: 50px;
   }
   .bg_2__h3 {
     margin-top: 50px;
@@ -109,6 +121,7 @@ html {
   .bg_2__text-block {
     width: 320px;
     float: right;
+    margin-right: 30px;
   }
   .bg_2__block1, .bg_2__block2 {
     min-height: 120px;
@@ -209,4 +222,28 @@ html {
     }
 
   }
+  @media (max-width: 768px) {
+     .bg_1 {
+
+     }
+     .bg_2 {
+       .bg_2__row {
+         .bg_2__block1 {
+           .bg_2__text-block {
+             margin-right: 0;
+           }
+         }
+         .bg_2__block2 {
+           .bg_2__text-block {
+             margin-right: 0;
+           }
+         }
+       }
+     }
+     .bg_3 {
+
+     }
+  }
+    
+  
   
