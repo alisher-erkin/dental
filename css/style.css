@@ -100,10 +100,18 @@ html {
 
 .bg_2__row {
   margin-top: 40px; }
-  .bg_2__row .bg_2__block1 .bg_2__img-block {
-    margin-top: 10px; }
-  .bg_2__row .bg_2__block2 .bg_2__img-block {
-    margin-top: 10px; }
+  .bg_2__row .bg_2__block1 {
+    margin: 20px 10px;
+    padding: 10px;
+    overflow: hidden; }
+    .bg_2__row .bg_2__block1 .bg_2__img-block {
+      padding-top: 10px; }
+  .bg_2__row .bg_2__block2 {
+    margin: 20px 10px;
+    padding: 10px;
+    overflow: hidden; }
+    .bg_2__row .bg_2__block2 .bg_2__img-block {
+      margin-top: 10px; }
 
 .bg_2__img {
   padding-left: 150px;
@@ -114,8 +122,7 @@ html {
 
 .bg_2__text-block {
   width: 320px;
-  float: right;
-  margin-right: 30px; }
+  float: right; }
 
 .bg_2__block1, .bg_2__block2 {
   min-height: 120px; }
@@ -148,10 +155,16 @@ html {
 
 .bg_4 {
   margin-top: 50px; }
-  .bg_4 .bg_4__img {
-    display: inline-block; }
+  .bg_4 .col-sm-4 {
+    margin: 10px 0; }
+    .bg_4 .col-sm-4 .bg_4__img {
+      display: inline-block; }
   .bg_4 .bg_4__p {
     margin-top: 40px; }
+
+.bg_4__block {
+  border: 1px solid #c0c0c0;
+  overflow: hidden; }
 
 .bg_4__img {
   display: inline-block; }
