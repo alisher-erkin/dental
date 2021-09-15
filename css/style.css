@@ -217,6 +217,12 @@ html {
     display: inline-block; }
   .footer .footer__p-1 br {
     display: none; }
+  .footer .footer__block-1 .footer__img-1 {
+    display: inline-block; }
+  .footer .footer__block-2 .footer__img-2 {
+    display: inline-block; }
+  .footer .footer__block-3 .footer__img-3 {
+    display: inline-block; }
 
 @media (max-width: 768px) {
   .bg_2 .bg_2__img {
