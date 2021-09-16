@@ -321,8 +321,31 @@ html {
              bottom: 30px;
            
            }
-           .footer__p1, .footer__p2, .footer__p3 {
-            
+           .footer__p1 {
+             width: 80%;
+             padding-left: 70px;
+           }
+         }
+         .footer__block-2 {
+          .footer__img-2 {
+            display: inline-block;
+             position: absolute;
+             bottom: 120px;
+          }
+           .footer__p2 {
+             width: 80%;
+             padding-left: 70px;
+           }
+         }
+         .footer__block-3 {
+           .footer__img-3 {
+            display: inline-block;
+            position: absolute;
+            bottom: 40px;
+           }
+           .footer__p3 {
+             width: 80%;
+             padding-left: 70px;
            }
          }
        }

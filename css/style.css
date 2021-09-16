@@ -250,4 +250,21 @@ html {
     .footer .footer__row .footer__block-1 .footer__img-1, .footer .footer__row .footer__block-1 .footer__img-2, .footer .footer__row .footer__block-1 .footer__img-3 {
       display: inline-block;
       position: absolute;
-      bottom: 30px; } }
+      bottom: 30px; }
+    .footer .footer__row .footer__block-1 .footer__p1 {
+      width: 80%;
+      padding-left: 70px; }
+  .footer .footer__row .footer__block-2 .footer__img-2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 120px; }
+  .footer .footer__row .footer__block-2 .footer__p2 {
+    width: 80%;
+    padding-left: 70px; }
+  .footer .footer__row .footer__block-3 .footer__img-3 {
+    display: inline-block;
+    position: absolute;
+    bottom: 40px; }
+  .footer .footer__row .footer__block-3 .footer__p3 {
+    width: 80%;
+    padding-left: 70px; } }
