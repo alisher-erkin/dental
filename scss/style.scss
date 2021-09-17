@@ -81,6 +81,48 @@ html {
   .bg-img {
      width: 100%;
   }
+  .wrapper {
+    position: relative;
+    .wrapper__h4 {
+      padding-top: 30px;
+      .wrapper__h4_title {
+        color: #25a5cc;
+      }
+    }
+    .wrapper__p {
+      padding-left: 30px;
+      padding-top: 20px;
+    }
+    .wrapper__button1 {
+      background: #25a5cc;
+      color: #ffffff;
+      margin-top: 30px;
+      margin-left: 30px;
+      border-radius: 15px;
+      width: 23%;
+    }
+    .wrapper__button2 {
+      background: #1f2e36;
+      color: #ffffff;
+      margin-top: 30px;
+      margin-left: 30px;
+      border-radius: 15px;
+      width: 23%;
+    }
+    .wrapper__modal {
+      border-left: 3px solid #25a5cc;
+      background-color: #ffffff;
+      position: absolute;
+      width: 40%;
+      height: 50%;
+      top: 100px;
+      left: 260px;
+      overflow: hidden;
+
+
+
+    }
+  }
   .bg_1 {
     height: 200px;
     padding-top: 60px;
@@ -263,6 +305,11 @@ html {
     }
   }
   @media (max-width: 768px) {
+    .wrapper {
+      .wrapper__modal {
+        display: none;
+      }
+    }
      .bg_1 {
 
      }
