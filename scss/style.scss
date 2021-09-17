@@ -78,6 +78,10 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit; }
+  html, body {
+    height: 100%;
+    overflow-x: hidden;
+  }
   .bg-img {
      width: 100%;
   }
@@ -316,7 +320,7 @@ html {
      .bg_2 {
        .bg_2__img {
         margin-top: 80px;;
-        padding-left: 50px;
+        padding-left: 20px;
        }
        .bg_2__row {
          .bg_2__block1 {
