@@ -154,16 +154,7 @@ html {
 
     }
   }
-  .row__img::before {
-    content: '';
-    position: absolute;
-    background-color: #1f2e36;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
-  }
+  
   .row__1 {
     padding: 0 170px;
   }
